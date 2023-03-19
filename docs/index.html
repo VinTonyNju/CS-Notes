@@ -39,6 +39,11 @@
         border-radius: 5px;
     }
 
+    .markdown-section p.tip,
+    .markdown-section tr:nth-child(1n) {
+    	background-color: #f8f8f8 !important;
+	}
+
     .content,
     .sidebar,
     .markdown-section,
@@ -417,7 +422,8 @@
             depth: 6
         },
         // subMaxLevel: 2,
-        coverpage: true
+        coverpage: true,
+        notFoundPage: true
     }
     </script>
     <script src="https://cyc-1256109796.cos.ap-guangzhou.myqcloud.com/docsify.min.js"></script>
